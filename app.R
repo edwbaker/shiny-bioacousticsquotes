@@ -12,8 +12,8 @@ ui <- fluidPage(titlePanel("Bioacoustics and ecoacoustics quotes"),
 
 server <- function(input, output) {
   output$mytable <- renderDT(quotes,
-                                        options = list(scrollX = TRUE),
-                                        rownames = FALSE)
+                             options = list(scrollX = TRUE),
+                             rownames = FALSE)
 }
 
 # Run the application
