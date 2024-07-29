@@ -6,6 +6,7 @@ data(quotes)
 
 
 ui <- fluidPage(titlePanel("Bioacoustics and ecoacoustics quotes"),
+                HTML("<p>The tabe shows the bioacoustics and ecoacoustics quotes from the R package <a href='https://quotes.acousti.cloud/'>bioacousticsquotes</a> by <a href='https://ebaker.me.uk'> Ed Baker</a>."),
                 mainPanel(width = 12,
                           DTOutput("mytable")))
 
