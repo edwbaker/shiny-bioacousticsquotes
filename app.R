@@ -5,7 +5,7 @@ library(bioacousticsquotes)
 data(quotes)
 
 
-ui <- fluidPage(titlePanel("Bioacoustics quotes"),
+ui <- fluidPage(titlePanel("Bioacoustics and ecoacoustics quotes"),
                 mainPanel(width = 12,
                           DTOutput("mytable")))
 
